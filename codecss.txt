@@ -1,0 +1,51 @@
+.a{
+    border-width: 1px;
+  	border-style: solid;
+  	border-color: red;
+  	width: 50px;
+  	height: 50px;
+    position: absolute;
+    background: red;
+    z-index: 5;
+    box-shadow: 10px 10px 10px #333;
+}
+.b{
+    border-width: 1px;
+  	border-style: solid;
+  	border-color: blue;
+  	width: 50px;
+  	height: 50px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background: blue;
+    box-shadow: 10px 10px 10px #333;
+}
+.c{
+    border-width: 1px;
+  	border-style: solid;
+  	border-color:green;
+  	width: 50px;
+  	height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background: green;
+    z-index: 5;
+    box-shadow: 10px 10px 10px #333;
+}
+.d{
+  border-width: 1px;
+  width: 170px;
+  height: 370px;
+  border-color: green;
+  border-style: dotted;
+  position: relative;
+  left: 100px;
+  color: solid red;
+  text-align: justify;
+  margin: 20px;
+  padding: 20px;
+  text-indent: 15px;
+
+}

@@ -1,0 +1,54 @@
+div{
+  width: 200px;
+  height: 200px;
+}
+.red{
+  background-image: url(sponge-bob-logo-151B6280F4-seeklogo.com.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.red:hover{
+  background-image: url(patricpng.png);
+
+}
+.green{
+  background: green;
+}
+.yellow{
+  background: yellow;
+}
+.all{
+  width: 1440px;
+  height: 700px;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid black;
+  justify-content: space-around;
+}
+.menu{
+  width: 301px;
+  height: 150px;
+  background: blue;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.menu>div{
+  width: 100%;
+  height: 100%;
+  border: 0px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+  border: 1px solid black;
+  text-indent: 10px;
+}
+.menu>div:hover{
+  color: blue;
+  background: white;
+}
